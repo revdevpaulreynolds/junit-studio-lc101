@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/junit-studio-lc101/test/BalancedBracketsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/BonusBinarySearch.java" afterDir="false" />
+    <list default="true" id="705a5edb-1f12-41a3-a9da-d103c200797d" name="Default Changelist" comment="Passed bonus mission on chapter 6.">
+      <change afterPath="$PROJECT_DIR$/src/test/BonusBinarySearchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BalancedBracketsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.BalancedBracketsTest.thisArray">
+  <component name="RunManager" selected="JUnit.BonusBinarySearchTest.checkThisArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -86,9 +84,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.BalancedBracketsTest" />
       <option name="METHOD_NAME" value="thisArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BonusBinarySearchTest.checkThisArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-studio-lc101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.BonusBinarySearchTest" />
+      <option name="METHOD_NAME" value="checkThisArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -120,8 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BalancedBracketsTest" />
+      <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
+      <item itemvalue="JUnit.BalancedBracketsTest.thisArray" />
+      <item itemvalue="JUnit.BonusBinarySearchTest.checkThisArray" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BonusBinarySearchTest.checkThisArray" />
         <item itemvalue="JUnit.BalancedBracketsTest.thisArray" />
         <item itemvalue="JUnit.BalancedBracketsTest.emptyTest" />
         <item itemvalue="JUnit.BalancedBracketsTest" />
@@ -139,6 +163,14 @@
       <option name="presentableId" value="Default" />
       <updated>1572212264650</updated>
     </task>
+    <task id="LOCAL-00001" summary="Passed bonus mission on chapter 6.">
+      <created>1645850792484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645850792484</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +186,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished main mission, switching to bonus." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished main mission, switching to bonus." />
+    <MESSAGE value="Passed bonus mission on chapter 6." />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed bonus mission on chapter 6." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
